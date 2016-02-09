@@ -3,7 +3,7 @@
 This is the specification for annnoncing RemoteDebug compatible devices over MDNS/Bonjour.
 
 Bonjour announcement:
-```
+```json
 {
   name: 'My Android phone', 
   type: 'http', 
@@ -11,8 +11,6 @@ Bonjour announcement:
   port: 9222,
   protocol: 'tcp'
 }
-
-
 ```
 
 Addtional TXT-record for device meta-data:
