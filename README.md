@@ -24,8 +24,6 @@ This is the specification for annnoncing RemoteDebug compatible devices over mDN
 }
 ```
 
-### Properties
-
 #### device_type
 `string` Describes the device type. Potential values: 
 
