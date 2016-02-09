@@ -16,7 +16,6 @@ Bonjour announcement:
 Addtional TXT-record for device meta-data:
 ```json
 {
-  name: "My device name",
   device_type: "mobile",
   runtime: "Chrome/37.0.2062.124",
   protocol_version: "1.1",
