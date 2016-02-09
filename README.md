@@ -13,7 +13,7 @@ This is the specification for annnoncing RemoteDebug compatible devices over mDN
 }
 ```
 
-#### Addtional TXT-record for device meta-data:
+#### Additional TXT-record for device meta-data:
 ```json
 {
   device_type: "mobile",
@@ -24,9 +24,9 @@ This is the specification for annnoncing RemoteDebug compatible devices over mDN
 }
 ```
 
-## Properties
+### Properties
 
-### device_type
+#### device_type
 `string` Describes the device type. Potential values: 
 
 - mobile
@@ -34,16 +34,16 @@ This is the specification for annnoncing RemoteDebug compatible devices over mDN
 - desktop
 - service
 
-### discover_url
+#### discover_url
 `string` URL point to a HTTP JSON endpoint compliant too https://github.com/buggerjs/bugger-daemon#api  
 
-### runtime
+#### runtime
 `string` runtime information. Typical named followed by version.
 
-### protocol_version
+#### protocol_version
 `string` Protocol version
 
-### user_agent 
+#### user_agent 
 `string` Browser/runtime user agent string
 
 `
