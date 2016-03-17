@@ -1,4 +1,4 @@
-# Specification for RemoteDebug mDNS Devices
+# RemoteDebug mDNS Device Discovery Specifiction
 
 This is the specification for annnoncing RemoteDebug compatible devices over mDNS/Bonjour.
 
